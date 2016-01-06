@@ -24,7 +24,7 @@ namespace StorageExamples
 
             CloudQueueClient queueClient = storageAccount.CreateCloudQueueClient();
 
-            CloudQueue queue = queueClient.GetQueueReference("myqueue");
+            CloudQueue queue = queueClient.GetQueueReference("storageexamplequeue");
             queue.CreateIfNotExists();
             queue.AddMessage(new CloudQueueMessage("Message #1"));
             queue.AddMessage(new CloudQueueMessage("Message #2"));
