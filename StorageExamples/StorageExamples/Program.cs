@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StorageExamples
+namespace StorageQueueExample
 {
     // FIFO
     // 30 second lock
+
+    // PowerShell 
+    // https://azure.microsoft.com/pl-pl/documentation/articles/storage-powershell-guide-full/
+
 
     using Microsoft.WindowsAzure.Storage;
     using Microsoft.WindowsAzure.Storage.Auth;
